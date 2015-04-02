@@ -1,4 +1,4 @@
-# GHF (Gaussian homogeneous spatial field)
+# GHF
 
 GHJ.jl contains a julia trascription of algorithm in section 2.2:
 "Generating Stationary Processes via Circulant embedding" of
@@ -10,6 +10,7 @@ GHJ.jl contains a julia trascription of algorithm in section 2.2:
 > V. Schmidt (Ed.).  Springer-Verlag, Berlin. <br />
 > http://arxiv.org/abs/1308.0399
 
+for generation of Gaussian homogeneous spatial field.
 
 ## Installation
 
