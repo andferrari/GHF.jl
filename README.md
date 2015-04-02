@@ -15,7 +15,7 @@ for generation of Gaussian homogeneous spatial field.
 ## Installation
 
 ```julia
-Pkg.clone("https://github.com/andferrari/GHF.jl")
+Pkg.clone("https://github.com/andferrari/GHF.jl.git")
 ```
 
 ## Usage
