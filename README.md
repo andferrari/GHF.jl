@@ -1,6 +1,6 @@
 # GHF
 
-GHJ.jl contains a julia trascription of algorithm in section 2.2:
+GHF.jl contains a julia transcription of algorithm in section 2.2:
 "Generating Stationary Processes via Circulant embedding" of
 
 > Kroese, D.P. and Botev, Z.I. (2013). <br />
