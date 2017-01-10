@@ -28,7 +28,7 @@ function genghf(tx::Vector, ty::Vector, rho::Function)
         cols[j,i] = rho(tx[1]-tx[i],ty[j]-ty[1])
     end
 
-    blkcirc_row = [[rows cols[:,end:-1:2]] ,
+    blkcirc_row = [[rows cols[:,end:-1:2]] ;
         [cols[end:-1:2,:] rows[end:-1:2,end:-1:2]]]
 
     lam = real(fft(blkcirc_row))/(2*m-1)/(2*n-1)
