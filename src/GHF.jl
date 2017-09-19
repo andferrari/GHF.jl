@@ -38,10 +38,10 @@ function genghf(tx::Vector, ty::Vector, rho::Function)
         error("Could not find positive definite embedding!")
     else
         lam[ind0] = 0.0
-        lam = sqrt(lam)
+        lam = sqrt.(lam)
     end
 
-    z = complex(randn(2*m-1, 2*n-1), randn(2*m-1, 2*n-1))
+    z = complex.(randn(2*m-1, 2*n-1), randn(2*m-1, 2*n-1))
     f = fft(lam .* z)
     f = f[1:m,1:n]
     field1 = real(f)
