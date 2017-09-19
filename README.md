@@ -29,8 +29,8 @@ using GHF
 
 n = 512
 m = 512
-tx= linspace(0, n-1, n)
-ty= linspace(0, m-1, m)
+tx= collect(linspace(0, n-1, n))
+ty= collect(linspace(0, m-1, m))
 
 corl = n/5.0
 rho(x,y) = exp(-norm([x, y])/corl)
